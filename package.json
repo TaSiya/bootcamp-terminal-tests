@@ -12,7 +12,6 @@
   },
   "scripts": {
     "test": "mocha",
-    "test":".node_modules/bin/mocha"
   },
   "repository": {
     "type": "git",
