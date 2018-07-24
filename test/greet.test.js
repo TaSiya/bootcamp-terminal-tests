@@ -7,7 +7,7 @@ describe('the greet function', function(){
 	});
 
 	it('Should greet Pam', function(){
-		assert.equal('Hello, Odwa', greeting('Pam'));
+		assert.equal('Hello, Pam', greeting('Pam'));
 	});
 
 });
