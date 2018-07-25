@@ -22,11 +22,11 @@ describe('Most Profitable Department', function(){
       		{department : 'outdoor', sales : 2000},
    	];
 
-   	it('checks profitable department', function(){
+   	it('should return \'hardware\'', function(){
       		assert.deepEqual(most(salesDate),'hardware')
    	});
 
-   	it('checks profitable department', function(){
+   	it('should return \'eletronics\'', function(){
       		assert.deepEqual(most(salesDate2),'electronics')
    	});
 
